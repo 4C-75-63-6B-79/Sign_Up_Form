@@ -28,36 +28,38 @@
                 </p>
             </div>
             <div id="form-container">
-                <h1>Let's do this!</h1>
                 <form method="post" action="#">
-                    <div>
-                        <label for="first-name">FIRST NAME</label>
-                        <input type="text" id="first-name" name="first-name" minlength="1" required>
-                    </div>
-                    <div>
-                        <label for="last-name">LAST NAME</lable>
-                        <input type="text" id="last-name" name="last-name" minlength="1" required>
-                    </div>
-                    <div>
-                        <label for="email">EMAIL</lable>
-                        <input type="email" id="email" name="email" required>
-                    </div>
-                    <div>
-                        <lablel for="phone-number">PHONE NUMBER</lablel>
-                        <input type="text" id="phone-number" name="phone-number" minlength="10" maxlength="10" pattern="^[1-9]{1}[0-9]{9} required">
-                    </div>
-                    <div>
-                        <label for="password">PASSWORD</label>
-                        <input type="password" id="password" name="password" minlength="10" maxlength="16" required>
-                    </div>
-                    <div>
-                        <label for="confirm-password">CONFIRM PASSWORD</label>
-                        <input type="password" id="confirm-password" name="confirm-password" minlength="10" maxlength="16" required>
-                    </div>
-                    <div id="submit-button">
-                        <button type="submit">Create Account</button>
-                        <p>Already have an account? <a href="#">Log in</a></p>
-                    </div>
+                    <fieldset>
+                        <legend>Let's do this!</legend>
+                        <div>
+                            <label for="first-name">FIRST NAME</label>
+                            <input type="text" id="first-name" name="first-name" minlength="1" required>
+                        </div>
+                        <div>
+                            <label for="last-name">LAST NAME</lable>
+                            <input type="text" id="last-name" name="last-name" minlength="1" required>
+                        </div>
+                        <div>
+                            <label for="email">EMAIL</lable>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div>
+                            <lablel for="phone-number">PHONE NUMBER</lablel>
+                            <input type="text" id="phone-number" name="phone-number" minlength="10" maxlength="10" pattern="^[1-9]{1}[0-9]{9} required">
+                        </div>
+                        <div>
+                            <label for="password">PASSWORD</label>
+                            <input type="password" id="password" name="password" minlength="10" maxlength="16" required>
+                        </div>
+                        <div>
+                            <label for="confirm-password">CONFIRM PASSWORD</label>
+                            <input type="password" id="confirm-password" name="confirm-password" minlength="10" maxlength="16" required>
+                        </div>
+                        <div id="submit-button">
+                            <button type="submit">Create Account</button>
+                            <p>Already have an account? <a href="#">Log in</a></p>
+                        </div>
+                    </fieldset>
                 </form>
             </div>
         </div>
