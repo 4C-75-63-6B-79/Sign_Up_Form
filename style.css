@@ -75,7 +75,7 @@ img {
 #input-container {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     padding: 50px;
-
+    
     background-color: white;
     display: grid;
     grid-template-rows: repeat(3, 1fr);
@@ -93,6 +93,30 @@ img {
     flex-flow: column;
     gap: 5px;
 }
+
+input {
+    padding: 5px;
+    appearance: none;
+    height: 25px;
+    border: 2px solid lightslategray;
+    border-radius: 5px;
+}
+
+input:invalid:not(:placeholder-shown):not(:focus) {
+    border-color: white;
+    outline: 2px solid red;
+}
+
+input:focus {
+    border-color: white;
+    outline: 2px solid lightblue;
+}
+
+input:not(:focus):valid {
+    border-color: white;
+    outline: 2px solid lightgreen;
+}
+
 
 #submit-button {
     padding: 50px;
