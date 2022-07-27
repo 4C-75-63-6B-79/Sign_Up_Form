@@ -28,7 +28,7 @@ img {
 #odin-image {
     padding: 10px;
     margin-top: 150px;
-    margin-bottom: 100%;
+    margin-bottom: calc(100vh - 150px - 170px - 30px);
     height: 150px;
 
     background-color: #00000090;
@@ -47,6 +47,7 @@ img {
 #odin-image + #footer {
     color: white;
     padding: 5px;
+    font-size: 15px;
     text-align: center;
 }
 
@@ -98,7 +99,7 @@ input {
     padding: 5px;
     appearance: none;
     height: 25px;
-    border: 2px solid lightslategray;
+    border: 2px solid lightslategrey;
     border-radius: 5px;
 }
 
