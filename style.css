@@ -61,14 +61,11 @@ img {
 }
 
 #text-container {
-    /* height: 100vh; */
     background-color: beige;
     
-    /* display: flex;
+    display: flex;
     flex-direction: column;
-    justify-content: center; */
-    display: grid;
-    grid-template-rows: 1fr 2fr;
+    justify-content: space-evenly;
 }
 
 #header {
@@ -81,14 +78,9 @@ img {
     max-width: 750px;
 }
 
-form {
-    /* height: calc(100vh - 224px); */
-}
-
 #input-container {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     padding: 50px;
-    height: 300px;
     
     background-color: white;
     display: grid;
@@ -101,7 +93,6 @@ form {
 
 #input-container > h1 {
     grid-column: 1 / 3;
-    height: 30px;
 }
 
 #input-container > div {
@@ -114,7 +105,6 @@ form {
 input {
     padding: 5px;
     appearance: none;
-    height: 25px;
     border: 2px solid lightslategrey;
     border-radius: 5px;
 }
