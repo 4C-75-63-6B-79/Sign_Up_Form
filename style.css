@@ -60,7 +60,7 @@ img {
     background-color: beige;
     
     display: flex;
-    flex-flow: column;
+    flex-direction: column;
     justify-content: center;
 }
 
@@ -100,7 +100,7 @@ form {
 #input-container > div {
     max-width: 250px;
     display: flex;
-    flex-flow: column;
+    flex-direction: column;
     gap: 5px;
 }
 
