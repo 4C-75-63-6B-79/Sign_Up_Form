@@ -28,7 +28,7 @@ img {
 #odin-image {
     padding: 10px;
     margin-top: 150px;
-    margin-bottom: calc(100vh - 150px - 170px - 30px);
+    /* margin-bottom: calc(100vh); */
     height: 150px;
 
     background-color: #00000090;
@@ -44,24 +44,31 @@ img {
     font-size: 110px;
 }
 
-#odin-image + #footer {
+#odin-image + #footer > div {
     color: white;
     padding: 5px;
     font-size: 15px;
     text-align: center;
+    justify-self: flex-end;
 }
 
-#footer>a {
+#footer {
+    display: flex;
+    flex-direction: column;
+}
+#footer>div>a {
     color: inherit;
 }
 
 #text-container {
-    height: 100vh;
+    /* height: 100vh; */
     background-color: beige;
     
-    display: flex;
+    /* display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: center; */
+    display: grid;
+    grid-template-rows: 1fr 2fr;
 }
 
 #header {
@@ -75,7 +82,7 @@ img {
 }
 
 form {
-    height: calc(100vh - 224px);
+    /* height: calc(100vh - 224px); */
 }
 
 #input-container {
